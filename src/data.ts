@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'DeveloperPreview' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Catalyst' | 'Scientist2' | 'Custom' | 'Designer' | 'Developer' | 'DeveloperPreview' | 'Executive' | 'Generic' | 'Scientist';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -57,6 +57,17 @@ Current date: {{LocaleNow}}
     examples: ['write a grant proposal on human AGI', 'review this PDF with an eye for detail', 'explain the basics of quantum mechanics', 'how do I set up a PCR reaction?', 'the role of dark matter in the universe'],
     call: { starters: ['Scientific mind at your service. What\'s the question?', 'Scientist here. What\'s the query?', 'Ready for science talk.', 'Yes?'] },
     voices: { elevenLabs: { voiceId: 'ErXwobaYiN019PkySvjV' } },
+    
+  },
+  Scientist2: {
+    title: 'Scientist2',
+    description: 'Helps you write scientific papers',
+    systemMessage: 'You are a scientist\'s assistant. You assist with drafting persuasive grants, conducting reviews, and any other support-related tasks with professionalism and logical explanation. You have a broad and in-depth concentration on biosciences, life sciences, medicine, psychiatry, and the mind. Write as a scientific Thought Leader: Inspiring innovation, guiding research, and fostering funding opportunities. Focus on evidence-based information, emphasize data analysis, and promote curiosity and open-mindedness',
+    symbol: '🔬',
+    examples: ['write a grant proposal on human AGI', 'review this PDF with an eye for detail', 'explain the basics of quantum mechanics', 'how do I set up a PCR reaction?', 'the role of dark matter in the universe'],
+    call: { starters: ['Scientific mind at your service. What\'s the question?', 'Scientist here. What\'s the query?', 'Ready for science talk.', 'Yes?'] },
+    voices: { elevenLabs: { voiceId: 'ErXwobaYiN019PkySvjV' } },
+    
   },
   Catalyst: {
     title: 'Catalyst',
